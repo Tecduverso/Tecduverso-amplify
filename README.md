@@ -1,0 +1,2 @@
+# Tecduverso-amplify
+amplify
