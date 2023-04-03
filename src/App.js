@@ -1,11 +1,25 @@
 import logo from './logo.svg';
 import './App.css';
+import Babbylong from './Js/babylon'
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Test de desarollo Tecduverso `${process.env.TECDU_APP}`
+        </p>
+        <Babbylong/>
+      </header>
+    </div>
+  );
+}
+
+export default App;
+
+/*
+<img src={logo} className="App-logo" alt="logo" />
         <p>
           Test de desarollo Tecduverso
         </p>
@@ -19,7 +33,4 @@ function App() {
         </a>
       </header>
     </div>
-  );
-}
-
-export default App;
+    */
