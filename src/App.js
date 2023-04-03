@@ -13,7 +13,6 @@ function App() {
         <Babbylong/>
       </header>
     </div>
-        
   );
 }
 
